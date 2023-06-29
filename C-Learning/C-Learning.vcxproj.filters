@@ -21,5 +21,14 @@
     <ClCompile Include="Operator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Complement.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Celsius.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Char.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
