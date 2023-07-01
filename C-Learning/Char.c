@@ -13,7 +13,7 @@ int main() {
   long lo;
 
   float fl;  // 실수
-  double du;
+  double du;;
 
   printf("char 형 변수 입력 : ");
   scanf("%c", &ch);
