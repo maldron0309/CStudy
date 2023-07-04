@@ -92,14 +92,40 @@ int main() {
 	//	}
 	//}
 	// 다시 시작
-	
+
 	// continue 문
 	// continue 문은 break문과 비슷하지만 다르다
 	// continue 문은 break와 달리 for문을 빠져 나가지 않고
 	// 그냥 패스한다
 
 	// 5 의 배수를 제외한 숫자 출력
-	
+
+	//int i;
+
+	//for ( i = 0; i < 100; i++)
+	//{
+	//	if (i % 5 == 0)
+	//	// i 를 5로 나눈 나머지 
+	//	// i % 5 가 0일 때 == 0, continue를 실행함
+	//	{
+	//		continue;
+	//	}
+	//	printf("%d ", i);
+		// 5의 배수를 제외한 0 이상 100미만의 모든 수가 출력됨
+		// continue는 break 문 처럼 아래 모든 내용을 무시한다는 점에서
+		// 동일 하지만, break문은 루프를 빠져나가는데 반면
+		// continue 는 다시 조건 점검부로 점프하게 된다.
+
+// 구구단
+	int i, j;
+
+	for (i = 1; i < 10; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			printf("%d x %d = %d\n", i, j, i * j);
+		}
+	}
 
 	return 0;
 }
