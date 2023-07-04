@@ -33,5 +33,8 @@
     <ClCompile Include="If.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="For.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
