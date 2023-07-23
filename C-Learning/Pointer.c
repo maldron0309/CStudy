@@ -42,7 +42,7 @@ int main()
 
 	// 포인터도 변수
 
-	int a;
+	/*int a;
 	int b;
 	int* p;
 
@@ -52,7 +52,41 @@ int main()
 	*p = 4;
 
 	printf("a : %d\n", a);
-	printf("b : %d\n", b);
+	printf("b : %d\n", b);*/
+
+	//int a, b;
+
+	//const int* p = &a;
+
+	////*p = 3; 올바르지 않은 문장
+	//p = &b; // 올바른 문장
+
+	// 포인터의 덧셈
+
+	/*int a;
+	int* pa;
+	pa = &a;
+
+	printf("pa의 값 : %p\n", pa);
+	printf("(pa + 1)의 값 : %p\n", pa + 1);*/
+
+	int a;
+	char b;
+	double c;
+
+	int* pa = &a;
+	char* pb = &b;
+	double* pc = &c;
+
+	printf("pa의 값 : %p\n", pa);
+	printf("(pa + 1)의 값 : %p\n", pa + 1);
+
+	printf("pb의 값 : %p\n", pb);
+	printf("(pb + 1)의 값 : %p\n", pb + 1);
+
+	printf("pc의 값 : %p\n", pc);
+	printf("(pc + 1)의 값 : %p\n", pc + 1);
+
 
 	return 0;
 }
