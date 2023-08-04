@@ -70,7 +70,7 @@ int main()
 	printf("pa의 값 : %p\n", pa);
 	printf("(pa + 1)의 값 : %p\n", pa + 1);*/
 
-	int a;
+	/*int a;
 	char b;
 	double c;
 
@@ -85,8 +85,51 @@ int main()
 	printf("(pb + 1)의 값 : %p\n", pb + 1);
 
 	printf("pc의 값 : %p\n", pc);
-	printf("(pc + 1)의 값 : %p\n", pc + 1);
+	printf("(pc + 1)의 값 : %p\n", pc + 1);*/
 
+	// 포인터 뺄셈
+
+	/*int a;
+	int* pa = &a;
+
+	printf("pa의 값 : %p\n", pa);
+	printf("(pa - 1) 의 값 : %p\n", pa - 1);*/
+
+	// 포인터 끼리의 덧셈
+	/*int a;
+	int* pa = &a;
+	int b;
+	int* pb = &b;
+	int* pc = pa + pb;*/
+
+	// => error C2110: '+' : 두 포인터를 더할 수 없습니다.
+	// 포인터 끼리 덧셈이 안되는 이유
+	// 의미도 없고 필요하지도 않다
+	// 두 변수의 메모리 주소를 더해서 나오는 값은 이전에 포인터
+	// 포인터들이 가리키던 두 개의 변수와 아무런 관련이 없는 메모리 속의 임의의 지점이다
+	// 하지만 포인터 끼리의 뺄셈은 가능하다
+
+
+	// 포인터의 대입
+	/*int a;
+	int* pa = &a;
+	int* pb;
+
+	*pa = 3;
+	pb = pa;
+
+	printf("pa가 가리키고 있는 것 : %d\n", *pa);
+	printf("pb기 가리키고 있는 것 : %d\n", *pb);*/
+
+
+	/* 배열의 존재 상태 */
+	/*int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		printf("arr[%d]의 주소값 : %p\n", i, &arr[i]);
+	}*/
 
 	return 0;
 }
