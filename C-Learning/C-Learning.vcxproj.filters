@@ -45,8 +45,13 @@
     <ClCompile Include="Mult array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer.c">
+    <ClCompile Include="Fun.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

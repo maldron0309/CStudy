@@ -166,5 +166,19 @@ int main()
 	//printf("parr[1] : %d\n", parr[1]);
 
 
+ /*포인터 이용하기*/
+	int arr[10] = { 100, 98,95,89,76,92,96,100,99 };
+
+	int* parr = arr;
+	int sum = 0;
+
+	while (parr - arr <= 9)
+	{
+		sum += (*parr);
+		parr++;
+	}
+	printf("내 시험 점수 평균 : %d\n", sum / 10);
+
+
 	return 0;
 }
