@@ -13,45 +13,70 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Ex">
+      <UniqueIdentifier>{bcfe3ec8-d4f7-4170-9e65-fe31a71f8f7c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.c">
+    <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Operator.c">
+    <ClCompile Include="2-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Complement.c">
+    <ClCompile Include="2-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Celsius.c">
+    <ClCompile Include="2-3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Char.c">
+    <ClCompile Include="2-4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="If.c">
+    <ClCompile Include="Ex01.c">
+      <Filter>소스 파일\Ex</Filter>
+    </ClCompile>
+    <ClCompile Include="2-5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="For.c">
+    <ClCompile Include="2-6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Switch.c">
+    <ClCompile Include="2-7.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Array.c">
+    <ClCompile Include="Ex02.c">
+      <Filter>소스 파일\Ex</Filter>
+    </ClCompile>
+    <ClCompile Include="3-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Mult array.c">
+    <ClCompile Include="3-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Fun.c">
+    <ClCompile Include="3-3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Pointer.c">
+    <ClCompile Include="3-4.c">
       <Filter>소스 파일</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="3-5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3-6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3-7.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3-8.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex03.c">
+      <Filter>소스 파일\Ex</Filter>
+    </ClCompile>
+    <ClCompile Include="3-9.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
