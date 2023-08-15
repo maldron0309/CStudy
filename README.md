@@ -15,10 +15,10 @@
 
 ## 학습 자료
 
-C언어를 학습하는 데 사용하는 자료와 링크를 기록합니다.
+C언어를 학습하는 데 사용하는 자료와 강좌
 
 - [**C 언어 프로그래밍  강좌**](https://modoocode.com/231)
-- [**C 언어 학습용 도서**](https://hongong.hanbit.co.kr/c%EC%96%B8%E	C%96%B4/)
+- [**C 언어 학습용 도서**](https://hongong.hanbit.co.kr/c%EC%96%B8%EC%96%B4/)
 
 ## 학습 로드맵
 
