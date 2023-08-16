@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* 학번, 이름, 학점을 출력하는 프로그램 작성 */
+
 int main() {
 
 	printf("학번 : %d\n", 32165);

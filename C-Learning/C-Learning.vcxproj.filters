@@ -84,9 +84,6 @@
     <ClCompile Include="3-11.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Ex04.c">
-      <Filter>소스 파일\Ex</Filter>
-    </ClCompile>
     <ClCompile Include="4-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -115,6 +112,12 @@
       <Filter>소스 파일\Ex</Filter>
     </ClCompile>
     <ClCompile Include="Ex07.c">
+      <Filter>소스 파일\Ex</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex04.c">
+      <Filter>소스 파일\Ex</Filter>
+    </ClCompile>
+    <ClCompile Include="4-8.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
