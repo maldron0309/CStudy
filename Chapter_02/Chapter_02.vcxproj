@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{50c5d393-f5dc-4fbf-b9f8-c0ae3304da9e}</ProjectGuid>
-    <RootNamespace>CLearning</RootNamespace>
+    <ProjectGuid>{3e4b3318-9311-40d7-a710-2cdd5f34f6e1}</ProjectGuid>
+    <RootNamespace>Chapter02</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -126,6 +126,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="2-01.c" />
+    <ClCompile Include="2-02.c" />
+    <ClCompile Include="2-03.c" />
+    <ClCompile Include="2-04.c" />
+    <ClCompile Include="2-05.c" />
+    <ClCompile Include="2-06.c" />
+    <ClCompile Include="2-07.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
