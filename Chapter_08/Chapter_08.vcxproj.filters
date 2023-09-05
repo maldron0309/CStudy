@@ -15,25 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="7-01.c">
+    <ClCompile Include="8-01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7-02.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-03.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-04.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-05.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-06.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-07.c">
+    <ClCompile Include="8-02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
